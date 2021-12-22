@@ -1,0 +1,100 @@
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.pd-1 {
+  padding-bottom: 0.5rem;
+}
+.pt-1{
+  padding-top: 0.5rem;
+}
+.mh-50 {
+  max-height: 12rem;
+}
+
+.mh-6 {
+  max-height: 1.5rem;
+}
+
+.bw-2 {
+  border-bottom: 2px solid;
+}
+
+.border-gray {
+  border-color: rgba(138, 137, 132, 1);
+}
+
+.m-1 {
+  margin: 0 0.5rem;
+}
+
+.border-none {
+   border: none;
+}
+
+.bg-white {
+  background: rgb(255, 255, 255, 0.2);
+}
+
+.bg-green {
+  text-decoration: line-through;
+  background: rgb(255, 255, 255, 0.2);
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+header {
+  padding: 0 150px 0 150px;
+
+  h1 {
+    font-family: "STHeiti Light", cursive;
+    font-size: 50px;
+    text-shadow: 4px 2px 2px gray;
+  }
+}
+
+form {
+  column-gap: 0.5rem;
+
+  input {
+    font-style: italic;
+    font-size: 1rem;
+    box-shadow: 2px 1px 7px gray;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    width: 90%;
+    padding-left: 1.5rem;
+  }
+
+  input:focus {
+    outline: cornflowerblue solid 2px;
+  }
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
