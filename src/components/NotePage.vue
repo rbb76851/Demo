@@ -93,7 +93,7 @@
 </template>
 
 <script setup>
-import {onMounted, reactive} from 'vue'
+import {onMounted, reactive, defineExpose} from 'vue'
 
 const state = reactive({
   title: "事 件 碎 片",

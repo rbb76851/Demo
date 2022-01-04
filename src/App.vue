@@ -1,9 +1,17 @@
 <script setup lang="ts">
 import  NotePage from './components/NotePage.vue'
+import Demo from './components/Demo.vue'
+import Father from './components/Father.vue'
+import Child from './components/Child.vue'
+
 </script>
 
 <template>
-  <NotePage />
+<!--  <NotePage />-->
+  <Demo></Demo>
+<!--<router-view />-->
+<!--  <Father />-->
+<!--  <Child />-->
 </template>
 
 <style>
